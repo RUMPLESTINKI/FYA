@@ -214,9 +214,13 @@ INSERT INTO `nivel_alumno` (`id_rel`, `nivel`, `alumno`) VALUES
 
 DROP TABLE IF EXISTS `profesores`;
 CREATE TABLE IF NOT EXISTS `profesores` (
+  `id_prof` int(4) NOT NULL AUTO_INCREMENT,
   `CURP` varchar(18) NOT NULL,
   `Nombre_profesor` varchar(60) NOT NULL,
-  PRIMARY KEY (`CURP`)
+  `password` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`id_prof`)
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
