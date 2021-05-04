@@ -53,7 +53,7 @@ if ($error) {
   <div class="row">
     <div class="col-md-12">
       <a href="crear.php"  class="btn btn-primary mt-4">Crear alumno</a>
-      <a href="verdocentes.php"  class="btn btn-primary mt-4">Docentes</a>
+      <a href="profesores/verdocentes.php"  class="btn btn-primary mt-4">Profesores</a>
       <a href="../CRUD/list_espera/index.php"  class="btn btn-primary mt-4">Soli. Lista Espera</a>
       <a href="view_list_espera.php"  class="btn btn-primary mt-4">Lista Espera</a>
       <hr>
