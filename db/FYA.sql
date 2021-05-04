@@ -218,9 +218,9 @@ CREATE TABLE IF NOT EXISTS `profesores` (
   `CURP` varchar(18) NOT NULL,
   `Nombre_profesor` varchar(60) NOT NULL,
   `password` varchar(30) DEFAULT NULL,
-  PRIMARY KEY (`id_prof`)
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id_prof`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
